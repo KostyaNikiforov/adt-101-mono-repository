@@ -52,7 +52,6 @@ public class Part1CrazyHelloWorld extends Application {
         return title;
     }
 
-    /** Start of the loop: the text field and the button that beams the value away. */
     private HBox createStartRow() {
         startField.setPromptText("Type a word and press Enter or Beam");
         startField.setPrefWidth(280);
@@ -74,7 +73,6 @@ public class Part1CrazyHelloWorld extends Application {
         return row;
     }
 
-    /** Radio buttons choose what happens with the value during the jump. */
     private HBox createModeRow() {
         ToggleGroup group = new ToggleGroup();
         HBox row = new HBox(10, new Label("Trip effect:"));
@@ -104,7 +102,6 @@ public class Part1CrazyHelloWorld extends Application {
         return row;
     }
 
-    /** The combo box keeps all parcels, the check box sends the chosen one to the log. */
     private HBox createComboRow() {
         parcelBox.setPrefWidth(200);
         parcelBox.setPromptText("empty storage");
@@ -127,7 +124,6 @@ public class Part1CrazyHelloWorld extends Application {
         return row;
     }
 
-    /** The last row closes the loop and returns the value to the very first control. */
     private HBox createReturnRow() {
         Button returnButton = new Button("Copy to start");
         returnButton.setOnAction(event -> {
