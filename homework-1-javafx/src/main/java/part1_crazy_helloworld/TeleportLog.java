@@ -2,24 +2,19 @@ package part1_crazy_helloworld;
 
 import javafx.scene.control.TextArea;
 
-public class TeleportLog {
-    private final TextArea area = new TextArea();
+public class TeleportLog extends TextArea {
     private String lastValue = "";
 
     public TeleportLog() {
-        area.setEditable(false);
-        area.setPrefRowCount(7);
-        area.setWrapText(true);
-        area.setPromptText("Here the travel history of your value will appear...");
-    }
-
-    public TextArea getArea() {
-        return area;
+        setEditable(false);
+        setPrefRowCount(7);
+        setWrapText(true);
+        setPromptText("Here the travel history of your value will appear...");
     }
 
     public void write(String station, String value) {
         lastValue = value;
-        area.appendText(station + " >>> " + value + "\n");
+        appendText(station + " >>> " + value + "\n");
     }
 
     public String getLastValue() {
@@ -27,7 +22,7 @@ public class TeleportLog {
     }
 
     public void clear() {
-        area.clear();
+        super.clear();
         lastValue = "";
     }
 }

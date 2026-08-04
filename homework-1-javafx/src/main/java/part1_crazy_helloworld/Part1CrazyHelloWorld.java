@@ -37,7 +37,7 @@ public class Part1CrazyHelloWorld extends Application {
                 createLabelRow(),
                 createComboRow(),
                 new Label("4. Arrivals log:"),
-                log.getArea(),
+                log,
                 createReturnRow()
         );
 
