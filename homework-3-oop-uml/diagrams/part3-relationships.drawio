@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2026-08-05T00:00:00.000Z" agent="Cursor" version="24.7.17">
+  <diagram name="Part 3 - Relationships" id="part3-relationships">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="course" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Course&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-roster: Roster&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="180" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="roster" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Roster&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-students: ArrayList&amp;lt;Student&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="220" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="student" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Student&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-name: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-id: int&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="180" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="undergrad" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UndergradStudent&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="180" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="grad" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;GradStudent&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="180" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="comp-course-roster" value="" style="endArrow=none;html=1;rounded=0;startArrow=diamondThin;startFill=1;endFill=0;startSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="course" target="roster">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="comp-1-course" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="comp-course-roster">
+          <mxGeometry x="-0.7" relative="1" as="geometry">
+            <mxPoint x="8" y="-12" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="comp-1-roster" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="comp-course-roster">
+          <mxGeometry x="0.7" relative="1" as="geometry">
+            <mxPoint x="-8" y="-12" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agg-roster-student" value="" style="endArrow=none;html=1;rounded=0;startArrow=diamondThin;startFill=0;endFill=0;startSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="roster" target="student">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="agg-1-roster" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="agg-roster-student">
+          <mxGeometry x="-0.7" relative="1" as="geometry">
+            <mxPoint x="12" y="-8" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agg-star-student" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="agg-roster-student">
+          <mxGeometry x="0.7" relative="1" as="geometry">
+            <mxPoint x="-12" y="8" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inh-undergrad-student" value="" style="endArrow=block;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="undergrad" target="student">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="inh-grad-student" value="" style="endArrow=block;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="grad" target="student">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
