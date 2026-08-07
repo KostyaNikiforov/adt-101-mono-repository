@@ -1,0 +1,27 @@
+=== AUK Bachelor Application Report ===
+
+Personal Information
+--------------------
+Full name: dsfdsa fsdfdsf
+Gender: Male
+Date of birth: 01.08.2002
+Email: email@gmail.com
+Phone: +380632214791
+City: Kyiv
+Country: Ukr
+
+Academic Information
+--------------------
+Chosen program: Business Administration
+Previous school: dlkasjfd
+GPA: 10
+
+Motivation Letter
+-----------------
+123456789012345678901234567890
+
+Extracurricular Activities
+--------------------------
+dslkajfkldsajf
+
+Terms accepted: Yes

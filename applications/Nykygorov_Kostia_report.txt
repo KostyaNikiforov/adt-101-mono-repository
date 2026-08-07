@@ -1,0 +1,27 @@
+=== AUK Bachelor Application Report ===
+
+Personal Information
+--------------------
+Full name: Kostia Nykygorov
+Gender: Other
+Date of birth: 21.04.4002
+Email: abc@gmail.com
+Phone: +832984932
+City: Kyiv
+Country: Ukraine
+
+Academic Information
+--------------------
+Chosen program: Economics
+Previous school: lkjsdaklfdj;d
+GPA: 5
+
+Motivation Letter
+-----------------
+123456789012345678901234567890
+
+Extracurricular Activities
+--------------------------
+1234567890
+
+Terms accepted: Yes
