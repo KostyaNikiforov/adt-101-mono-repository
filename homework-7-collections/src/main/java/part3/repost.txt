@@ -1,0 +1,13 @@
+1. Adding an element at the end of the list: O(1)
+   Why: We keep a reference to the last node, so we can link a new node
+   after last without walking through the list.
+
+2. Adding an element at position i with add(int i, T e): O(n)
+   Why: First we must find the node at index i by traversing from first
+   or last. That takes O(n) in the worst case. Linking the new node
+   after that is O(1), so the whole method is O(n).
+
+3. Traversing with for (i = 0; i < size; i++) list.get(i): O(n^2)
+   Why: The loop runs n times. Each get(i) walks from the start (or end)
+   to index i, which is O(i). Sum of 0..n-1 is about n^2/2, so O(n^2).
+   A better way is to use an iterator, which is O(n).
