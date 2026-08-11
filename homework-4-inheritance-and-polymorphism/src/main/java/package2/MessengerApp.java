@@ -14,9 +14,10 @@ import javafx.stage.Stage;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.List;
 
 public class MessengerApp extends Application {
-    private final ArrayList<BaseMessage> messages = new ArrayList<>();
+    private final List<BaseMessage> messages = new ArrayList<>();
     private final ListView<String> messageList = new ListView<>();
 
     @Override
