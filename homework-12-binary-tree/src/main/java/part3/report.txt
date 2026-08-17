@@ -1,0 +1,28 @@
+Part 3. Binary Search Trees (BST)
+
+3.1. Keys inserted in order: 5, 4, 8, 7, 6, 9, 3, 2, 1
+(a) Resulting BST:
+        5
+       / \
+      4   8
+     /   / \
+    3   7   9
+   /   /
+  2   6
+ /
+1
+(b) Height of the tree: 4
+
+3.2. Number of key comparisons to locate each key
+Key   Comparisons
+1     5
+2     4
+3     3
+4     2
+5     1
+6     4
+7     3
+8     2
+9     3
+
+Average number of comparisons = (5+4+3+2+1+4+3+2+3)/9 = 27/9 = 3

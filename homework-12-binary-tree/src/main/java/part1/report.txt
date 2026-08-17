@@ -1,0 +1,23 @@
+Part 1. Binary Tree fundamentals
+Tree: root 7, left 8, right 3
+
+1.1. Binary tree concepts
+(a) Descendants of node 8: 5, 6, 2, 9
+(b) Ancestors of 1: 3, 7
+(c) Leaf nodes: 5, 1, 4, 9
+(d) Internal nodes: 7, 8, 3, 6, 2
+(e) Levels (root at level 0): node 3 -> level 1, node 1 -> level 2, node 9 -> level 4
+(f) Height of the tree: 4
+(g) Height of the subtree rooted at 6: 2
+(h) Is this a full binary tree? No.
+    A full binary tree means every node has 0 or 2 children.
+    Nodes 6 and 2 each have only one child, so the tree is not full.
+(i) To make it complete: move 2 to be the left child of 5,
+    and move 9 to be the right child of 5.
+    Then level 3 is filled left to right, and 6 becomes a leaf.
+
+1.2. Binary tree traversals
+(a) Level order: 7, 8, 3, 5, 6, 1, 4, 2, 9
+(b) Inorder:     5, 8, 6, 9, 2, 7, 1, 3, 4
+(c) Preorder:    7, 8, 5, 6, 2, 9, 3, 1, 4
+(d) Postorder:   5, 9, 2, 6, 8, 1, 4, 3, 7
