@@ -3,14 +3,15 @@ package part1;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class ListComparison {
     public static void main(String[] args) {
         int numElements = 100000;
         DecimalFormat formatter = new DecimalFormat("#,###");
 
-        ArrayList<Integer> arrayList = new ArrayList<>();
-        LinkedList<Integer> linkedList = new LinkedList<>();
+        List<Integer> arrayList = new ArrayList<>();
+        List<Integer> linkedList = new LinkedList<>();
 
         long startTime = System.nanoTime();
         for (int i = 0; i < numElements; i++) {
