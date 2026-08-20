@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+actor User
+
+rectangle "Motorcycle Trip Planner" {
+  User --> (Manage Riders)
+  User --> (Manage Trips)
+  User --> (Assign Riders to Trips)
+  User --> (Manage Checkpoints)
+  User --> (Sort Trips by Distance)
+  User --> (Search Trip by Title)
+  User --> (Undo Deleted Trip)
+  User --> (Save / Load Data)
+}
+@enduml

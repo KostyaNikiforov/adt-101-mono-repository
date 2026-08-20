@@ -1,0 +1,24 @@
+MTP1
+[RIDERS]
+91d80a00-3d6d-470b-b3d7-cb71d940e0c4|Anna Koval|+380501112233|Honda CB500X|5
+3e52ba9a-d04f-4ca0-98a8-aeabe751c27c|Olena Shevchenko|+380931112222|BMW F850GS|8
+2f334478-a877-4b0e-9ff7-820bf303cec6|Kostia|0632214791|Yamaha MT-09|2
+[TRIPS]
+b580777f-669d-4c41-b735-42628a753c80|Black Sea Ride|2026-07-01|2026-07-05|1100.0|Coastal trip to Odesa
+1027bf92-707a-456e-92cf-347dd60c6876|Carpathian Loop|2026-06-10|2026-06-14|820.0|Mountain roads and scenic passes
+f2293301-6c67-49df-bffa-d04d07bbaf94|Carpathian 2|2026-21-08|2026-31-08|2000.0|Camp, rock climbing
+1c497c08-ef51-4caa-82f3-61fe1409d55e|Carpathian 3|2026-21-08|2026-31-08|2000.0|Camp, rock climbing
+6c05133c-e870-48ca-bf4c-4d9ea72f4858|Carpathian 4|2026-21-08|2026-31-08|2000.0|Camp, rock climbing
+[TRIP_RIDERS]
+b580777f-669d-4c41-b735-42628a753c80|3e52ba9a-d04f-4ca0-98a8-aeabe751c27c
+b580777f-669d-4c41-b735-42628a753c80|91d80a00-3d6d-470b-b3d7-cb71d940e0c4
+1027bf92-707a-456e-92cf-347dd60c6876|2f334478-a877-4b0e-9ff7-820bf303cec6
+1027bf92-707a-456e-92cf-347dd60c6876|3e52ba9a-d04f-4ca0-98a8-aeabe751c27c
+[CHECKPOINTS]
+d064847f-023c-4a28-9add-6c07591e7bed|b580777f-669d-4c41-b735-42628a753c80|Kyiv start|Kyiv|1|Morning departure
+5a9b3a93-4c92-4b7d-a5fc-30612b86290c|b580777f-669d-4c41-b735-42628a753c80|Uman|Uman|2|Fuel and coffee
+dff2291a-cef5-4d86-afdb-4ead205b6f87|b580777f-669d-4c41-b735-42628a753c80|Odesa|Odesa|3|Seaside hotel
+ef10b018-df93-4dab-b9a4-887ead16c2e7|1027bf92-707a-456e-92cf-347dd60c6876|Тернопіль|Тернопіль|1|Файне місто
+e28b5888-b07c-426f-b9fa-4c9823be73e6|1027bf92-707a-456e-92cf-347dd60c6876|Тернопіль|Тернопіль|2|Файне місто
+ba9e8211-5a1c-45a9-8aec-ed3c493e5998|1027bf92-707a-456e-92cf-347dd60c6876|Финальная точка|Микуличин|3|Ночевка
+27a93945-e35b-427a-bef0-8fb15c7e3a69|f2293301-6c67-49df-bffa-d04d07bbaf94|Киев|Киев|1|Начало пути

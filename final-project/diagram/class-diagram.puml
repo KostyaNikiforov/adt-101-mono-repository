@@ -1,0 +1,50 @@
+@startuml
+abstract class Person {
+  - id: String
+  - name: String
+  - phone: String
+  + getRole(): String
+}
+
+class Rider {
+  - bikeModel: String
+  - experienceYears: int
+}
+
+class Trip {
+  - id: String
+  - title: String
+  - startDate: String
+  - endDate: String
+  - distanceKm: double
+  - description: String
+  - riderIds: ArrayList<String>
+  - checkpoints: LinkedList<Checkpoint>
+}
+
+class Checkpoint {
+  - id: String
+  - tripId: String
+  - name: String
+  - location: String
+  - orderIndex: int
+  - notes: String
+}
+
+class LinkedList<T>
+class Stack<T>
+class TripPlannerService
+class FileStorage
+class TripPlannerApp
+
+Person <|-- Rider
+Trip "1" *-- "many" Checkpoint : composition
+Trip "many" o-- "many" Rider : riderIds
+Stack *-- LinkedList
+Trip *-- LinkedList : checkpoints
+TripPlannerService o-- Rider
+TripPlannerService o-- Trip
+TripPlannerService o-- Stack : deletedTrips
+TripPlannerService --> FileStorage
+TripPlannerApp --> TripPlannerService
+@enduml
